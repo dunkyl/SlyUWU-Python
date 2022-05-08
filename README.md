@@ -16,13 +16,13 @@ Example usage:
 
 ```python
 import asyncio
-from SlyTwitter import *
+from SlyUWU import *
 
 async def main():
 
     uwurand = await UWURandom()
 
-    random = await uwurand.random(20)
+    random = await uwurand.of_length(20)
 
     print(random) # :3 AAAAAAAAAAA gajhu
     assert len(random) == 20

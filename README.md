@@ -12,6 +12,8 @@
 pip install slyuwu
 ```
 
+UWURandom-as-a-service is a service that provides random strings of a specified length, with a high degree of uwu-ness. It is provided by [Skye](https://skye.vg/)!
+
 <!-- elevator end -->
 
 ---

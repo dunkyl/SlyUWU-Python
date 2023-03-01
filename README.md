@@ -4,7 +4,7 @@
 
 > 🐍 For Python 3.10+
 
-## No-boilerplate, _async_ and _typed_ uwurandom-as-a-service access. 😸
+## No-boilerplate, *async* and *typed* uwurandom-as-a-service access. 😸
 
 ```shell
 pip install slyuwu

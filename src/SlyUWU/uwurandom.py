@@ -1,10 +1,11 @@
-from SlyAPI import WebAPI
+from SlyAPI import *
+from SlyAPI.auth import NoAuth
 
 class UWURandom(WebAPI):
     base_url = 'https://uwurandom.bs2k.me/nya'
     
     def __init__(self):
-        super().__init__(None)
+        super().__init__(NoAuth())
 
     async def of_length(self, l: int) -> str:
         """

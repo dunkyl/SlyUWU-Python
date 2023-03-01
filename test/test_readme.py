@@ -2,7 +2,7 @@ from SlyUWU import *
 
 async def test_readme():
 
-    uwurand = await UWURandom()
+    uwurand = UWURandom()
 
     random = await uwurand.of_length(20)
 

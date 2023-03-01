@@ -1,5 +1,7 @@
 # ![sly logo](https://raw.githubusercontent.com/dunkyl/SlyMeta/main/sly%20logo.svg) Sly UWU Random (aaS) for Python
 
+<!-- elevator begin -->
+
 > 🚧 **This library is an early work in progress! Breaking changes may be frequent.**
 
 > 🐍 For Python 3.10+
@@ -9,6 +11,8 @@
 ```shell
 pip install slyuwu
 ```
+
+<!-- elevator end -->
 
 ---
 
@@ -20,7 +24,7 @@ from SlyUWU import *
 
 async def main():
 
-    uwurand = await UWURandom()
+    uwurand = UWURandom()
 
     random = await uwurand.of_length(20)
 

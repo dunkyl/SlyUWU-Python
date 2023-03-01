@@ -1,4 +1,4 @@
-# ![sly logo](https://raw.githubusercontent.com/dunkyl/SlyMeta/main/sly%20logo.svg) Sly UWU Random (aaS) for Python
+# ![sly logo](https://raw.githubusercontent.com/dunkyl/SlyMeta/main/sly%20logo%20py.svg) Sly UWU Random (aaS) for Python
 
 <!-- elevator begin -->
 
@@ -24,9 +24,9 @@ from SlyUWU import *
 
 async def main():
 
-    uwurand = UWURandom()
+    uwu = UWURandom()
 
-    random = await uwurand.of_length(20)
+    random = await uwu.of_length(20)
 
     print(random) # :3 AAAAAAAAAAA gajhu
     assert len(random) == 20
